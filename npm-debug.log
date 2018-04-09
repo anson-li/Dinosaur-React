@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.6.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'shrinkwrap',
+1 verbose cli   '--dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 info lifecycle docker-create-react-app@0.1.0~preshrinkwrap: docker-create-react-app@0.1.0
+5 silly lifecycle docker-create-react-app@0.1.0~preshrinkwrap: no script for preshrinkwrap, continuing
+6 info lifecycle docker-create-react-app@0.1.0~shrinkwrap: docker-create-react-app@0.1.0
+7 silly lifecycle docker-create-react-app@0.1.0~shrinkwrap: no script for shrinkwrap, continuing
+8 verbose stack Error: Problems were encountered
+8 verbose stack Please correct and try again.
+8 verbose stack extraneous: ansi-regex@2.1.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/ansi-regex
+8 verbose stack extraneous: code-point-at@1.1.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/code-point-at
+8 verbose stack extraneous: is-fullwidth-code-point@1.0.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/is-fullwidth-code-point
+8 verbose stack extraneous: number-is-nan@1.0.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/number-is-nan
+8 verbose stack extraneous: object-assign@4.1.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/object-assign
+8 verbose stack extraneous: os-homedir@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/os-homedir
+8 verbose stack extraneous: os-tmpdir@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/os-tmpdir
+8 verbose stack extraneous: set-blocking@2.0.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/set-blocking
+8 verbose stack extraneous: signal-exit@3.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/signal-exit
+8 verbose stack extraneous: string-width@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/string-width
+8 verbose stack extraneous: strip-ansi@3.0.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/strip-ansi
+8 verbose stack extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fstream
+8 verbose stack extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/node-pre-gyp
+8 verbose stack extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/tar-pack
+8 verbose stack     at shrinkwrap_ (/usr/local/lib/node_modules/npm/lib/shrinkwrap.js:128:15)
+8 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+8 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+8 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+8 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:318:20
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:284:29
+8 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+9 verbose cwd /Users/ansonli/Desktop/React/docker-create-react-app
+10 error Darwin 15.6.0
+11 error argv "/usr/local/Cellar/node/7.6.0/bin/node" "/usr/local/bin/npm" "shrinkwrap" "--dev"
+12 error node v7.6.0
+13 error npm  v4.1.2
+14 error Problems were encountered
+14 error Please correct and try again.
+14 error extraneous: ansi-regex@2.1.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/ansi-regex
+14 error extraneous: code-point-at@1.1.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/code-point-at
+14 error extraneous: is-fullwidth-code-point@1.0.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/is-fullwidth-code-point
+14 error extraneous: number-is-nan@1.0.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/number-is-nan
+14 error extraneous: object-assign@4.1.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/object-assign
+14 error extraneous: os-homedir@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/os-homedir
+14 error extraneous: os-tmpdir@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/os-tmpdir
+14 error extraneous: set-blocking@2.0.0 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/set-blocking
+14 error extraneous: signal-exit@3.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/signal-exit
+14 error extraneous: string-width@1.0.2 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/string-width
+14 error extraneous: strip-ansi@3.0.1 /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fsevents/node_modules/strip-ansi
+14 error extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/fstream
+14 error extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/node-pre-gyp
+14 error extraneous: undefined /Users/ansonli/Desktop/React/docker-create-react-app/node_modules/tar-pack
+15 error If you need help, you may report this error at:
+15 error     <https://github.com/npm/npm/issues>
+16 verbose exit [ 1, true ]
